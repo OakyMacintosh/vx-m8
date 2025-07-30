@@ -18,6 +18,8 @@ main_loop:
 init_serial:
 	rts
 
+; READY.
+; > wait for command.
 print_ready:
 	lda #>'R'
 	jsr print_char
